@@ -31,3 +31,22 @@
   /* color-scheme: dark; */
   /* outline: 1px solid red; */
 }
+.left-color {
+  position: relative;
+}
+.left-color::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%; /* Adjust this value to control the width of the colored section */
+  background-image: linear-gradient(
+    to right,
+    #eebd89,
+    #d13abd
+  ); /* Adjust this value to change the color */
+  z-index: -1;
+  transform: skew(-15deg); /* Adjust this value to change the slant angle */
+  transform-origin: top left;
+}

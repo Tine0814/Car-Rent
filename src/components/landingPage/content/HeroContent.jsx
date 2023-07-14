@@ -4,7 +4,7 @@ import heroBg from "../../../assets/img/building.jpg";
 const HeroContent = () => {
   return (
     <>
-      <div className="h-screen flex items-center justify-center flex-col gap-10 text-center text-white">
+      <div className="h-screen flex items-center justify-center flex-col gap-5 text-center text-white">
         <div className="absolute top-0 w-full h-[450px] bg-primary mix-blend-overlay z-[-1]"></div>
         <div className="flex justify-center items-center flex-col gap-6">
           <h1 className="text-[40px]">
@@ -16,7 +16,7 @@ const HeroContent = () => {
             your way
           </p>
         </div>
-        <div className="flex justify-evenly w-full">
+        <div className="flex gap-5">
           <div>
             <div>12,460</div>
             <div>User Access</div>
