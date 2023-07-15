@@ -3,7 +3,7 @@ import React from "react";
 const NavComponent = () => {
   return (
     <div>
-      <nav className="fixed w-full flex justify-evenly text-white text-[12px] ">
+      <nav className="fixed w-full flex justify-evenly text-textPrimary text-[12px] z-20">
         <div>
           <ul className="uppercase flex gap-10  p-6">
             <li>

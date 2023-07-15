@@ -4,7 +4,7 @@ import HeroContent from "../components/landingPage/content/HeroContent";
 
 const LandingPage = () => {
   return (
-    <div>
+    <div className="bg-secondary">
       <NavComponent />
       <HeroContent />
     </div>

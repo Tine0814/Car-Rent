@@ -19,15 +19,15 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: raleway;
-  src: url(../public/font/Raleway-Regular.ttf);
+  font-family: verb;
+  src: url(../public/font/VerbCondRegular.otf);
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: raleway;
+  font-family: verb;
   /* color-scheme: dark; */
   /* outline: 1px solid red; */
 }

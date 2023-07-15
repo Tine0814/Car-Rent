@@ -4,7 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#df9c17",
+        primary: "#ffb681",
+        secondary: "#fffaf7",
+        textPrimary: "#343d48",
+        textSecondary: "#928d8d",
+        borderColor: "#ded1d1",
+        buttonColor: "#ff992e",
       },
     },
   },
