@@ -11,7 +11,7 @@ const HeroContent = () => {
         <div className="bg-primary w-[200px] h-[200px] rounded-full absolute -left-32 top-5"></div>
         <div className="bg-primary w-[40px] h-[40px] rounded-full absolute left-20 top-64"></div>
         <div className="bg-primary w-[700px] h-[700px] rounded-full absolute -right-[9rem] -top-20"></div>
-        <div className="m-20 px-20 w-full relative">
+        <div className="m-20 px-20 min-w-[1300px] relative">
           <div className="relative bg-secondary shadow-lg w-[380px] p-5">
             <h1 className="text-[25px] font-bold ">Make your Trip</h1>
             <p className=" text-textSecondary mb-7">

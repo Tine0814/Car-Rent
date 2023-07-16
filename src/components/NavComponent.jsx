@@ -1,9 +1,11 @@
 import React from "react";
+import useToggle from "../hooks/useToggle";
 
 const NavComponent = () => {
+  const { value, toggleValue } = useToggle(false);
   return (
     <div>
-      <nav className="fixed w-full flex justify-evenly text-textPrimary text-[12px] z-20">
+      <nav className="fixed w-full justify-evenly text-textPrimary text-[12px] z-20 hidden lg:flex">
         <div>
           <ul className="uppercase flex gap-10  p-6">
             <li>
